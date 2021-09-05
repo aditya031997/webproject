@@ -72,7 +72,7 @@ app.post("/Register", async(req,res)=>{
             const registerd = await registerEmployee.save();
             res.status(201).render("index");
         }else {
-            res.send("not matching")
+            res.send(" data not matching")
         }
     }catch (error){
         res.status(400).send(error);
