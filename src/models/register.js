@@ -15,6 +15,14 @@ const employeeSchema = new mongoose.Schema({
         required:true,
         unique:true
     },
+    Age:{
+        type:String,
+        required:true
+    },
+    Address:{
+        type:String,
+        required:true
+    },
     Email:{
         type:String,
         required:true,

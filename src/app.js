@@ -53,6 +53,8 @@ app.post("/Register", async(req,res)=>{
                 FirstName : req.body.FirstName,
                 LastName : req.body.LastName,
                 Phone : req.body.Phone,
+                Age : req.body.Age,
+                Address:req.body.Address,
                 Email : req.body.Email,
                 gender : req.body.gender,
                 Password : Password,
